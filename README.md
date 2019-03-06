@@ -30,8 +30,10 @@ Docker run
  
 
 Once you installed the docker.
+
 docker-machine —version
-docker-machine create -d virtual box myhost
+
+docker-machine create -d virtualbox myhost
 
 
    
