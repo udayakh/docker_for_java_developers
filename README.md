@@ -35,6 +35,8 @@ docker-machine —version
 
 docker-machine create -d virtualbox myhost
 
-
+If you are facing issues while installing Virtualbox.
+Please follow below link
+http://biercoff.com/how-to-fix-docker-machine-installation-on-mac-os-x/
    
   
