@@ -39,4 +39,11 @@ If you are facing issues while installing Virtualbox.
 Please follow below link
 http://biercoff.com/how-to-fix-docker-machine-installation-on-mac-os-x/
    
-  
+ env | grep DOCKER
+ 
+ docker-machine env myhost
+ 
+#Run below command to configure your shell:
+eval $(docker-machine env myhost5)
+env | grep DOCKER
+
