@@ -64,6 +64,9 @@ copy chapter2 in <username> directory
   
   curl http://localhost:8080/webapp/resources/persons
   #output:
-  <?xml version="1.0" encoding="UTF-8" standalone="yes"?><collection><person><name>Penny</name></person><person><name>Leonard</name></person><person><name>Sheldon</name></person><person><name>Amy</name></person><person><name>Howard</name></person><person><name>Bernadette</name></person><person><name>Raj</name></person><person><name>Priya</name></person></collection>macusersMacLBG4:chapter2 udaykhosur$ 
+<collection><person><name>Penny</name></person><person><name>Leonard</name></person><person><name>Sheldon</name></person><person><name>Amy</name></person><person><name>Howard</name></person><person><name>Bernadette</name></person><person><name>Raj</name></person><person><name>Priya</name></person></collection>
+ 
+ 
+ 
   
   
