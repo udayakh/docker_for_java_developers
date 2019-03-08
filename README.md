@@ -47,3 +47,23 @@ http://biercoff.com/how-to-fix-docker-machine-installation-on-mac-os-x/
 eval $(docker-machine env myhost5)
 env | grep DOCKER
 
+docker container run -d --name web -P jboss/wildfly
+
+docker container ls
+
+If you want to change the port:
+docker container run -d --name web -p 8080:8080 jboss/wildfly
+
+If you want to remove the container image:
+docker container rm -f web
+
+https://github.com/arun-gupta/docker-for-java
+copy chapter2 in <username> directory
+  
+  docker container run -d --name web -p 8080:8080 -v `pwd`/webapp.war:/opt/jboss/wildfly/standalone/deployments/webapp.war jboss/wildfly
+  
+  curl http://localhost:8080/webapp/resources/persons
+  #output:
+  <?xml version="1.0" encoding="UTF-8" standalone="yes"?><collection><person><name>Penny</name></person><person><name>Leonard</name></person><person><name>Sheldon</name></person><person><name>Amy</name></person><person><name>Howard</name></person><person><name>Bernadette</name></person><person><name>Raj</name></person><person><name>Priya</name></person></collection>macusersMacLBG4:chapter2 udaykhosur$ 
+  
+  
