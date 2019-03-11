@@ -67,6 +67,13 @@ copy chapter2 in <username> directory
 <collection><person><name>Penny</name></person><person><name>Leonard</name></person><person><name>Sheldon</name></person><person><name>Amy</name></person><person><name>Howard</name></person><person><name>Bernadette</name></person><person><name>Raj</name></person><person><name>Priya</name></person></collection>
  
  
- 
+. Dockerfile syntax
+. Create a new directory
+. Explain build context
+
+```
+FROM ubuntu
+
+CMD echo "Hello world" 
   
   
